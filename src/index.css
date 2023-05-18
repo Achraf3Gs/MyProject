@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #46529d;
+  color: #fff;
+}
+
+
+.text-center{
+  text-align: center;
+}
+.container{
+  width:60%;
+  margin: 10% auto;
+}
+
+.ListItems{
+  background: #fff;
+  color: #46529d;
+}
+
+.Ach {
+  margin: 0;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.ListItems span{
+  display: inline-block;
+  text-align:center;
+  padding: 10px 0 ;
+  font-size: 20px;
+  border:0.3px solid #ccc
+}
+
+.ListItems span.title {
+  background: #2ebaee;
+  color:#fff;
+}
+
+.ListItems span.name  {
+  width:60%;
+}
+.nam {
+  width:60%;
+}
+
+
+.ListItems span.age  {
+  width:30%;
+}
+.num {
+  width:30%;
+}
+
+.ListItems span.action  {
+  width:10%;
+}
+.sub {
+  width:10%;
+}
+
+.ListItems span.icon{
+  color: #f00;
+  cursor: pointer;
+} 
+
+.nam, .num {
+  padding: 10px;
+  background: #ebebeb;
+  border: transparent;
+  border: 0.3px solid #ccc;
+}
+
+.sub {
+  padding: 10px;
+  background: #2ebaee;
+  border:0.3px solid #2ebaee;
+  color:#fff;
+  cursor:pointer;
+}
+
